@@ -1,20 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * *  main - main block
- * *  Description: Get a random number 
- * * 
- * *  Return: Always  0 (success)
+ *  *  main - main block
+ *  *  Description: Get a random number 
+ *  * 
+ *  *  Return: Always  0 (success)
   */
 int main(void)
 {
-	char c = 'a';
+char c = 'a';
 
-	while (c <= 'z')
-	{
-		putchar(c);
-		c++;
-	}
-	putchar('\n');
-	return (0);
+while (c <= 'z')
+{
+putchar(c);
+c++;
+}
+putchar('\n');
+return (0);
 }
