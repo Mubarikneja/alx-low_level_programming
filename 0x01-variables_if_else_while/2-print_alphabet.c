@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * * * main - main block
- * * * Description: Get a random number 
- * * *
- * * Return: Always  0 (success)
- * */
+ * *  main - main block
+ * *  Description: Get a random number 
+ * * 
+ * *  Return: Always  0 (success)
+  */
 int main(void)
 {
 	char c = 'a';
