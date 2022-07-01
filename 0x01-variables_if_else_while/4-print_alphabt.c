@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * * * main - main block
- * * *
- * * * Description: Print all the letters except q and e
- * */
+ * * main - main block
+ * *
+ * * Description: Print all the letters except q and e
+ */
 int main(void)
 {
 	char c = 'a';
