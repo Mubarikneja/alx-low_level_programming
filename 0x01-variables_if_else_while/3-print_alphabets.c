@@ -1,9 +1,10 @@
 #include <stdio.h>
-/*
- * main - main block
- * Description:  prints the alphabet in lowercase,
- * and then in uppercase, followed by a new line.
- * Return: 0
+/**
+ * * main - main block
+ * * Description:  prints the alphabet in lowercase,
+ * *
+ * * and then in uppercase, followed by a new line.
+ * * Return:always 0 (success)
  */
 int main(void)
 {
@@ -26,4 +27,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
