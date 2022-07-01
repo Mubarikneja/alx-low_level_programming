@@ -5,6 +5,8 @@
 /* Return: always 0 (success)*/
 int main(void)
 {
+/* main - Entry Point */
+/* Return: always 0 (success)*/	
 	int n;
 
 	srand(time(0));
