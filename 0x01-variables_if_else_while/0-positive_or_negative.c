@@ -2,6 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /* Description: Get a random number and print the number */
+/* main.c method to check the number is +,- or 0 */
 int main(void)
 {
 	int n;
