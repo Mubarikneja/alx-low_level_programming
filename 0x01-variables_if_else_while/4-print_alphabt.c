@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * * main - main block
- * * Description: Get a random number and check its last digit, compare it with 5
- * * Return: 0
+ * * * main - main block
+ * * *
+ * * * Description: Print all the letters except q and e
  * */
 int main(void)
 {
@@ -20,4 +20,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
