@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /* Description: Get a random number and print the number */
-/* main.c method to check the number is +,- or 0 */
-int main(void) /* main.c to compare the rundom number */
+/* main method to check the number is +,- or 0 */
+int main(void) /* main function to compare the rundom number */
 {
 	int n;
 
