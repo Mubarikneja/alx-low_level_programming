@@ -4,6 +4,7 @@
 /* Return: Always 0 (Success) */
 int main(void)
 {
+/* betty style doc for function main goes there */
 	int n;
 
 	srand(time(0));
