@@ -3,6 +3,7 @@
  * * main - main block
  * *
  * * Description: Print all the letters except q and e
+ * * Return always 0 (success)
  */
 int main(void)
 {
