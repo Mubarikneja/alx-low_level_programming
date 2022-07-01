@@ -4,7 +4,8 @@
 /* Return: Always 0 (Success) */
 int main(void)
 {
-/* betty style doc for function main goes there */
+	 /* main - main block */
+	 /* Description: Get a random number and print the number*/
 	int n;
 
 	srand(time(0));
