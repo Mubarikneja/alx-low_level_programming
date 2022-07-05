@@ -1,10 +1,10 @@
 #include <unistd.h>
 /**
- * * main - check the code
+ * * _putchar - return the word
  * *
  * * Return: Always 0.
 */
 int _putchar(char c)
 {
-		return (write(1, &c, 1));
+return (write(1, &c, 1));
 }
