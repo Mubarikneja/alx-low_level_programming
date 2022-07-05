@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * * main - check the code.
+ * * print_times_table - to display the data.
  * *
  * * Return: Always 0.
- * */
+  */
 int _putchar(char c);
 
 void print_times_table(int n)
