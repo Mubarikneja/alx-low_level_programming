@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * * _islower - to find the number is lower
- * * int c - the user input
+ * * 
+ * * member 'c' - the user input
  * *
  * * Return: Always 0.
  */
