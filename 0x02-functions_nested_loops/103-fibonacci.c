@@ -1,12 +1,11 @@
 #include <stdio.h>
-
 /**
  * * main - Entry point
  * *
  * * purpose - fibonacci
  * *
  * * Return: (0) always
- * */
+ */
 int main(void)
 {
 	unsigned long int lim = 4000000;
