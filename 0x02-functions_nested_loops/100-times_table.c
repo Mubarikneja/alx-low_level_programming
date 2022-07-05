@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * * print_times_table - to display the data.
- * *
+ * * char c - input from user
  * * Return: Always 0.
   */
 int _putchar(char c);
