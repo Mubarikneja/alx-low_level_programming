@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * * main - check the code.
- * *
+ * * _islower - to find the number is lower
+  * *
  * * Return: Always 0.
  */
 int _islower(int c)
