@@ -1,8 +1,15 @@
-#ifndef MAIN_H
+fndef MAIN_H
 #define MAIN_H
-#include <stdio.h>
-void positive_or_negative(int i);
-int largest_number(int a, int b, int c);
-void print_remaining_days(int month, int day, int year);
-int convert_day(int month, int day);
+extern int _putchar(char c);
+extern int _isupper(int c);
+extern int _isdigit(int c);
+extern int mul(int a, int b);
+extern void print_numbers(void);
+extern void print_most_numbers(void);
+extern void more_numbers(void);
+extern void print_line(int n);
+extern void print_diagonal(int n);
+extern void print_square(int size);
+extern void print_triangle(int size);
+extern void print_number(int n);
 #endif
