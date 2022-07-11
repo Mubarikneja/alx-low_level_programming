@@ -10,7 +10,7 @@
  * * You can only use _putchar to print.
  * *
  * * Return: no return
- * */
+ */
 
 void print_array(int *a, int n)
 {
