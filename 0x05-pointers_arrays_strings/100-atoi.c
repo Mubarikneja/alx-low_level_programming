@@ -4,7 +4,7 @@
  * * @s: pointer
  * *
  * * Return: int.
- * */
+ */
 int _atoi(char *s)
 {
 	int i;
