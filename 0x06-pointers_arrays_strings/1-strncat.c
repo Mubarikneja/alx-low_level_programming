@@ -2,8 +2,8 @@
 
 /**
  * * _strncat - two words
- * @ *dest : pointer to char param
- * @ *src : pointer to char param
+ * @*dest : pointer to char param
+ * @*src : pointer to char param
  * @n : int parameter
  * 
  * Return: *dest
