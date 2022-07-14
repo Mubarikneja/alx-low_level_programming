@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * * _strncat - two words
- * * @dest : pointer to char param
- * * @src : pointer to char param
- * * @n : int parameter
- * * 
- * * Return: *dest
+ * _strncat - two words
+ * @dest : pointer to char param
+ * @src : pointer to char param
+ * @n : int parameter
+ * 
+ * Return: *dest
  */
 
 char *_strncat(char *dest, char *src, int n)
@@ -25,12 +25,10 @@ char *_strncat(char *dest, char *src, int n)
 		}
 		m++;
 	}
-
 	for (i = 0; src[i] != '\0' && i < n; i++)
 	{
 		dest[m + i] = src[i];
 	}
 	dest[m + i] = '\0';
 	return (dest);
-
 }
