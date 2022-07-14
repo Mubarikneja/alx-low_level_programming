@@ -2,11 +2,11 @@
 
 /**
  * * _strncat - two words
- * @*dest : pointer to char param
- * @*src : pointer to char param
+ * @dest : pointer to char param
+ * @src : pointer to char
  * @n : int parameter
  * 
- * Return: *dest
+ * Return: dest
  */
 
 char *_strncat(char *dest, char *src, int n)
