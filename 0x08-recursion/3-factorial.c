@@ -1,16 +1,20 @@
 #include "main.h"
 
 /**
- * * _strlen_recursion - size
- * * @s: pointer to string params
+ * * factorial - factorial n
+ * * @n: integer arams
  * * Return: recursion
- */
+ * */
 
-int _strlen_recursion(char *s)
+int factorial(int n)
 {
-	if (!*s)
+	if (n < 0)
 	{
-		return (0);
+		return (-1);
 	}
-	return (1 + _strlen_recursion(++s));
+	if (n == 1)
+	{
+		return (1);
+	}
+	return (n * factorial(n - 1));
 }
