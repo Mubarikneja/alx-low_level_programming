@@ -4,7 +4,7 @@
  * * factorial - factorial n
  * * @n: integer arams
  * * Return: recursion
- * */
+ */
 
 int factorial(int n)
 {
