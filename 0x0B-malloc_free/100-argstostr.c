@@ -7,7 +7,6 @@
  * * Return: int
  */
 
-
 int _strlen(char *s)
 {
 	int size = 0;
@@ -29,10 +28,8 @@ char *argstostr(int ac, char **av)
 
 	if (ac == 0 || av == NULL)
 		return (NULL);
-
 	for (; i < ac; i++, nc++)
 		nc += _strlen(av[i]);
-
 	s = malloc(sizeof(char) * nc + 1);
 	if (s == 0)
 		return (NULL);
@@ -46,7 +43,5 @@ char *argstostr(int ac, char **av)
 		cmpt++;
 	}
 	s[cmpt] = '\0';
-
 	return (s);
 }
-
