@@ -5,7 +5,7 @@
  * * _strlen - length of a string
  * * @s: input char
  * * Return: length of a string
- */
+ * */
 
 int _strlen(char *s)
 {
@@ -18,14 +18,6 @@ int _strlen(char *s)
 	}
 	return (l);
 }
-
-/**
- * * argstostr - concat
- * * @ac: count
- * * @av: vector
- * * Return: string
- */
-
 char *argstostr(int ac, char **av)
 {
 	int i, j, k;
