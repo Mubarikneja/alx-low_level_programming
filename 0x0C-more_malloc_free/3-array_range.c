@@ -20,3 +20,4 @@ while (i <= max - min)
 arr[i++] = t++;
 return (arr);
 }
+
