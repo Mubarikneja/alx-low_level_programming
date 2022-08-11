@@ -7,6 +7,7 @@
 *
 * Return: the number of nodes 
 */
+
 size_t print_list(const list_t *k)
 {
 size_t i = 0;
@@ -20,6 +21,5 @@ printf("[%u] %s\n", k->len, k->str);
 k = k->next;
 i++;
 }
-
 return (i);
 }
