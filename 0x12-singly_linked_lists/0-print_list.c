@@ -21,6 +21,7 @@ printf("[%u] %s\n", k->len, k->str);
 k = k->next;
 i++;
 }
+
 return (i);
 }
 
