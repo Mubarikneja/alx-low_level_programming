@@ -2,10 +2,10 @@
 #include "lists.h"
 
 /**
-* print_list 
-* @h: pointer
+* print_list - to print
+* @k: pointer - the pointer in
 *
-* Return: the number of nodes 
+* Return: the number of node
 */
 
 size_t print_list(const list_t *k)
