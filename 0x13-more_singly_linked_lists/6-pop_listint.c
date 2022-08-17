@@ -21,3 +21,4 @@ mine = tpointer->n;
 free(tpointer);
 return (mine);
 }
+
