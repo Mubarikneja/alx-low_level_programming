@@ -1,23 +1,21 @@
 #include "lists.h"
+#include <stdlib.h>
 
 /**
-* free_listint2 - frees 
-* Description: at the end
-* So, as we know the tail 
-* @head: head of linked list
+* free_listint2 - Frees a list.
+* @head: Address 
 */
 
 void free_listint2(listint_t **head)
 {
-listint_t *current;
+listint_t *temp;
 
 if (head == NULL)
 return;
-
 while (*head != NULL)
 {
-current = *head;
-*head = (*head)->next;
-free(current);
+temp = (*head)->next;
+free(*head);
+*head = temp;
 }
 }
