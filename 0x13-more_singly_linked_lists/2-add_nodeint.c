@@ -1,6 +1,5 @@
 #include "lists.h"
 #include <stdlib.h>
-
 /**
 * add_nodeint - Add a new node 
 * @head: Address of the first.
@@ -15,7 +14,6 @@ listint_t *tp;
 tp = malloc(sizeof(listint_t));
 if (tp == NULL)
 return (NULL);
-
 tp->n = n;
 tp->next = *head;
 *head = tp;
