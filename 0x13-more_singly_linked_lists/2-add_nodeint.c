@@ -1,9 +1,11 @@
 #include "lists.h"
 #include <stdlib.h>
+
 /**
 * add_nodeint - Add a new node 
 * @head: Address of the first.
 * @n: Integer to insert
+*
 * Return: Address of the new node.
 */
 
