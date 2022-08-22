@@ -2,39 +2,44 @@
 
 /**
 * read_textfile - reads a text file
-* @filename: name of the file 
-* @letters: number of letter
-* Return: No printed letters ,0
+* @filename: pointer 
+* @letters:  number
+* Return:  the actual
 */
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-int fd;
-int l, g;
-char *buf;
 
-if (!filename)
+int file;
+ssize_t rcount, wcount;
+char *buffer;
+
+if (filename == NULL)
 return (0);
-fd = open(filename, O_RDONLY);
-if (fd < 0)
+
+file = open(filename, O_RDWR);
+if (file == -1)
 return (0);
-buf = malloc(sizeof(char) * letters);
-if (!buf)
-return (0);
-l = read(fd, buf, letters);
-if (l < 0)
+
+buffer = malloc(sizeof(char) * letters);
+if (buffer == NULL)
 {
-free(buf);
+free(buffer);
 return (0);
 }
-buf[l] = '\0';
-close(fd);
-g = write(STDOUT_FILENO, buf, l);
-if (g < 0)
-{
-free(buf);
+
+rcount = read(file, buffer, letters);
+if (rcount == -1)
 return (0);
-}
-free(buf);
-return (g);
+
+wcount = write(STDOUT_FILENO, buffer, rcount);
+
+if (wcount == -1 || rcount != wcount)
+return (0);
+
+free(buffer);
+
+close(file);
+
+return (wcount);
 }
