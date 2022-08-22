@@ -4,6 +4,7 @@
 * read_textfile - reads a text file
 * @filename: pointer 
 * @letters:  number
+*
 * Return:  the actual
 */
 
@@ -43,3 +44,4 @@ close(file);
 
 return (wcount);
 }
+
